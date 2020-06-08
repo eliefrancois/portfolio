@@ -1,12 +1,18 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+{% load static %}
 <div class="jumbotron text-center">
   <h1>Elie Francois</h1>
+
+  <img src="{% static 'portfolio/professional-pic.png' %}">
+
   <nav>
       <div class="navbar-nav">
         <a class="nav-item nav-link text-warning" href="{%url 'all_blogs'%}">Blogs</a>
+        <a class="nav-item nav-link text-warning" href="{% static 'portfolio/05_21_20 Elie Francois Resume.pdf' %}">Resume</a>
       </div>
     </nav>
 </div>
+
 
 
 
