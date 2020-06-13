@@ -19,7 +19,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 from projects import views
 
-
+#app_name = 'myPortfolio'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
